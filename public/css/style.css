@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     min-width: 100vh;
+    height: 100vh;
 }
 
 .container {
@@ -116,4 +117,10 @@ footer {
 .show-card {
     padding-left: 0;
     padding-right: 0;
+}
+
+
+#map {
+    height: 400px;
+    width: 80vh;
 }
